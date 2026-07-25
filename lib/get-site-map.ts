@@ -44,7 +44,7 @@ async function getAllPagesImpl(
   rootNotionPageId: string,
   rootNotionSpaceId?: string,
   {
-    maxDepth = 1
+    maxDepth = 2
   }: {
     maxDepth?: number
   } = {}
